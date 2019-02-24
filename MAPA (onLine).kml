@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:gx="http://www.google.com/kml/ext/2.2"
+	xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+		<name>Mapa II RP</name>
+		<open>1</open>
+		<LookAt>
+			<gx:TimeSpan>
+				<begin>1919-02-24</begin>
+				<end>1945-07-06</end>
+			</gx:TimeSpan>
+			<longitude>22.55</longitude>
+			<latitude>51.25</latitude>
+			<altitude>0</altitude>
+			<heading>38</heading>
+			<tilt>0</tilt>
+			<range>900000</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<NetworkLink>
+			<name>Mapa II RP</name>
+			<visibility>0</visibility>
+			<Style>
+				<ListStyle>
+					<listItemType>checkHideChildren</listItemType>
+				</ListStyle>
+			</Style>
+			<Region>
+				<LatLonAltBox>
+					<north>56</north>
+					<south>47.5</south>
+					<east>30.333333</east>
+					<west>12.833333</west>
+				</LatLonAltBox>
+				<Lod>
+					<minLodPixels>256</minLodPixels>
+					<maxLodPixels>-1</maxLodPixels>
+				</Lod>
+			</Region>
+			<Link>
+				<href>https://raw.githubusercontent.com/Cisowscy/topoteka/master/onLine/iiRP/kml_onLine.kml</href>
+				<viewRefreshMode>onRegion</viewRefreshMode>
+			</Link>
+		</NetworkLink>
+	</Document>
+</kml>
